@@ -153,16 +153,15 @@ Enter your message: How old is Bob?
 
 ## Support
 
-* By default MemGPT will use `gpt-4`, so your API key will require `gpt-4` API access.
-
 If you have any further questions, or have anything to share, we are excited to hear your feedback!
 
-* For issues and feature requests, please [open a GitHub issue](https://github.com/cpacker/MemGPT/issues).
+* By default MemGPT will use `gpt-4`, so your API key will require `gpt-4` API access
+* For issues and feature requests, please [open a GitHub issue](https://github.com/cpacker/MemGPT/issues) or message us on our `#support` channel on [Discord](https://discord.gg/9GEQrxmVyE)
 
 ## Datasets
 Datasets used in our [paper](https://arxiv.org/abs/2310.08560) can be downloaded at [Hugging Face](https://huggingface.co/MemGPT).
 
-## Project Roadmap
+## 🚀 Project Roadmap
 - [x] Release MemGPT Discord bot demo (perpetual chatbot)
 - [x] Add additional workflows (load SQL/text into MemGPT external context)
 - [ ] CLI UI improvements
