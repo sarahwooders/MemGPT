@@ -28,11 +28,9 @@ flags.DEFINE_boolean("debug", default=False, required=False, help="Use -debug to
 
 
 def clear_line():
-    # print(f"os.name = {os.name}")
     if os.name == 'nt':  # for windows
         console.print("\033[A\033[K", end="")
     else:  # for linux
-        # console.print("\033[2K\033[G", end="")
         sys.stdout.write("\033[2K\033[G")
         sys.stdout.flush()
 
