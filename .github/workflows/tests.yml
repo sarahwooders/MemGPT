@@ -1,4 +1,4 @@
-name: MemGPT tests
+name: Run All pytest Tests
 
 on:
   push:
